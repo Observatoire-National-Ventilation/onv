@@ -34,3 +34,6 @@ Cette opération peut-être effectuée par un administrateur de la plateforme :
 * effacer la clé de sécurité dans le formulaire d'édition et enregistrer
 
 L'éditeur peut alors suivre [la procédure initiale](https://dooapp.github.io/onv/access-editor/#2-api-reference-) pour obtenir une nouvelle clé de sécurité.
+
+<br/><br/>
+<a href="#top"> <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
