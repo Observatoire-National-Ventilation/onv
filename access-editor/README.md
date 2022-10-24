@@ -38,7 +38,7 @@ L'API de l'Observatoire National Ventilation est une API REST.
 ### i.  Authentification logiciel – Observatoire National Ventilation <a name="authentification"></a>
 
 L'API de l'Observatoire National Ventilation utilise des clés secrètes pour authentifier les requêtes provenant des logiciels. 
- - Pour obtenir votre clé secrète, connectez-vous à votre compter éditeur sur l'Observatoire et rendez-vous dans le menu Compte > Mon application
+ - Pour obtenir votre clé secrète, connectez-vous à votre compte éditeur sur l'Observatoire et rendez-vous dans le menu Compte > Mon application
 
 <kbd>
     <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/generate_secret_key.png?raw=true" alt="Générer une clé secrète">
@@ -63,9 +63,9 @@ Vous pouvez utiliser la route ``/ext/test-access`` pour vérifier l'autorisation
 curl http://onv.com/ext/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur"
 ```
 
-L'utilisateur(opérateur reconnu) doit avoir autorisé votre logiciel à effectuer des actions sur son compte.
+L'utilisateur (opérateur reconnu) doit avoir autorisé votre logiciel à effectuer des actions sur son compte.
 
-Lors de la première requête pour un compte, l'API retourne une réponse ``401`` et fournit un header ``GrantAccessUrl`` qui contient comme valeur une URL à présenter à l'opérateur pour lui permettre autoriser l'accès de votre application à son compte.
+Lors de la première requête pour un compte, l'API retourne une réponse ``401`` et fournit un header ``GrantAccessUrl`` qui contient comme valeur une URL à présenter à l'opérateur pour lui permettre d'autoriser l'accès de votre application à son compte.
 
 Exemple :
 
