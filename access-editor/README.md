@@ -57,10 +57,10 @@ Vous devez spécifier le compte de l'opérateur qualifié pour lequel les requê
 
 **Nota : Pour l’obtention de l’identifiant du compte, se rapprocher de l’opérateur reconnu.**
 
-Vous pouvez utiliser la route ``/ext/test-access`` pour vérifier l'autorisation d'accès de votre logiciel à un compte utilisateur.
+Vous pouvez utiliser la route ``/ext/ventilation-reports/test-access`` pour vérifier l'autorisation d'accès de votre logiciel à un compte utilisateur.
 
 ```Bash
-curl http://onv.com/ext/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur"
+curl http://onv.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9"
 ```
 
 L'utilisateur (opérateur reconnu) doit avoir autorisé votre logiciel à effectuer des actions sur son compte.
@@ -71,7 +71,7 @@ Exemple :
 
 
 ```Bash
-curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" --head
+curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" --head
 HTTP/1.1 401 Unauthorized`
 Server: nginx/1.21.3`
 Date: Thu, 07 Jul 2022 10:28:04 GMT`
@@ -91,7 +91,7 @@ En ouvrant l'url ``GrantAccessUrl`` dans son navigateur, l'opérateur s'authenti
 Après validation de l'accès, votre application peut effectuer des requêtes pour le compte de cet opérateur :
 
 ```Bash
-curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" --head
+curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" --head
 HTTP/1.1 200 OK
 ```
 
