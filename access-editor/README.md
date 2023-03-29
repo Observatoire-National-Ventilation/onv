@@ -57,21 +57,25 @@ Vous devez spécifier le compte de l'opérateur qualifié pour lequel les requê
 
 **Nota : Pour l’obtention de l’identifiant du compte, se rapprocher de l’opérateur reconnu.**
 
+Vous devez spécifier la "authorization-key", la clé utilisée pour identifier l'opérateur et le logiciel qu'il utilise en ajoutant le header ``authorization-key`` à vos requêtes. Cette clé est générée par l'ONV lors de l'autorisation et doit être sauvegardée sur le logiciel utilisé.
+
+**Nota : Si le logiciel ne dispose pas encore d’autorisation pour cet utilisateur, ce header doit quand même être présent avec la valeur "".**
+
 Vous pouvez utiliser la route ``/ext/ventilation-reports/test-access`` pour vérifier l'autorisation d'accès de votre logiciel à un compte utilisateur.
 
 ```Bash
-curl http://onv.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9"
+curl http://onv.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" -H "authorization-key:la_clé_authorization"
 ```
 
 L'utilisateur (opérateur reconnu) doit avoir autorisé votre logiciel à effectuer des actions sur son compte.
 
-Lors de la première requête pour un compte, l'API retourne une réponse ``401`` et fournit un header ``GrantAccessUrl`` qui contient comme valeur une URL à présenter à l'opérateur pour lui permettre d'autoriser l'accès de votre application à son compte.
+Lors de la première requête pour un compte, l'API retourne une réponse ``401`` et fournit un header ``GrantAccessUrl`` qui contient comme valeur une URL à présenter à l'opérateur pour lui permettre d'autoriser l'accès de votre application à son compte. Vous pouvez également trouver l'en-tête ``authorization-key``, qui doit être enregistrée par le logiciel utilisant l'API et envoyée dans l'en-tête pour toutes les demandes ultérieures de l'opérateur.
 
 Exemple :
 
 
 ```Bash
-curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" --head
+curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" -H "authorization-key;" --head
 HTTP/1.1 401 Unauthorized`
 Server: nginx/1.21.3`
 Date: Thu, 07 Jul 2022 10:28:04 GMT`
@@ -79,6 +83,7 @@ Content-Length: 0`
 Connection: keep-alive`
 Expires: 0`
 GrantAccessUrl: http://onv-test-1.eu-west-3.elasticbeanstalk.com/software-authorization/1/grant-access`
+authorization-key: dsWYDvnkvU8jHOD2yClv`
 ```
 
 En ouvrant l'url ``GrantAccessUrl`` dans son navigateur, l'opérateur s'authentifie et peut ensuite valider ou refuser la demande d'accès du logiciel à son compte.
@@ -91,7 +96,7 @@ En ouvrant l'url ``GrantAccessUrl`` dans son navigateur, l'opérateur s'authenti
 Après validation de l'accès, votre application peut effectuer des requêtes pour le compte de cet opérateur :
 
 ```Bash
-curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" --head
+curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" -H "authorization-key:la_clé_authorization" --head
 HTTP/1.1 200 OK
 ```
 
@@ -109,10 +114,12 @@ Pour tester l'intégration de votre logiciel avec l'Observatoire National Ventil
 
 > Exemple : si votre logiciel s'appelle "MyVentilationSoftware", l'utilisateur de test ayant accepté l'accès de votre logiciel à son compte a pour login "MyVentilationSoftware_test_accepted".
 
+**Nota : Vous devez définir la valeur de ``authorization-key`` : ``MO9jxDxlqYWbVERjprkg`` dans toutes les requêtes pour ces trois comptes de test.**
+
 Vous pouvez tester l'intégration de votre logiciel en utilisant les routes de l'API avec ces trois utilisateurs. Les éventuelles données publiées pour ces utilisateurs n'auront pas d'impact sur les données utilisées pour les statistiques de l'Observatoire National Ventilation.
 
 ```Bash
-curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/test-access -u MyVentilationSoftware:cle_secrete -H "Account:MyVentilationSoftware_test_accepted" --head
+curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/test-access -u MyVentilationSoftware:cle_secrete -H "Account:MyVentilationSoftware_test_accepted" -H "authorization-key:MO9jxDxlqYWbVERjprkg" --head
 HTTP/1.1 200 OK
 ```
 
