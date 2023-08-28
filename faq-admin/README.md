@@ -4,6 +4,7 @@
 
 * [2022-1 Que faire si un utilisateur a perdu le mail d'activation de son compte?](#faq2022-1)
 * [2022-2 Que faire si un éditeur de logiciel n'a plus accès a sa clé de sécurité](#faq2022-2)
+* [2022-3 Comment créer un nouveau compte utilisateur?](#faq2022-3)
 
 ## 2022-1 Que faire si un utilisateur a perdu le mail d'activation de son compte? <a name="faq2022-1"></a>
 
@@ -34,6 +35,30 @@ Cette opération peut-être effectuée par un administrateur de la plateforme :
 * effacer la clé de sécurité dans le formulaire d'édition et enregistrer
 
 L'éditeur peut alors suivre [la procédure initiale](https://dooapp.github.io/onv/access-editor/#2-api-reference-) pour obtenir une nouvelle clé de sécurité.
+
+## 2022-3 Comment créer un nouveau compte utilisateur? <a name="faq2022-3"></a>
+
+Pour créer des comptes opérateurs, la fonctionnalité d'import d'une liste d'opérateurs par fichier Excel est la méthode à privilégier car la plus simple et la plus rapide.<br/>
+
+Pour créer un compte éditeur de logiciel, un formulaire spécifique existe publiquement et permet à l'éditeur de se créer son propre compte.<br/>
+
+Pour les comptes administration (DHUP, CEREMA...), membres d'un organisme de qualification, ou nouvel administrateur technique de l'ONV, c'est avec le rôle d'administrateur ROLE-ADMIN que vous pouvez procéder pour créer le compte.<br/>
+
+Pour cela, suivez les étapes suivantes :
+* Rendez-vous dans la rubrique "Administration">"Gestion des utilisateurs"
+* Cliquez sur le bouton "Créer un nouvel utilisateur"
+* Renseignez le login, le nom, prénom et email de l'utilisateur
+* Sélectionnez le ou les rôles de l'utilisateur. Il est possible de lui en attribuer plusieurs en maintenant la touche "Ctrl" enfoncée, afin qu'il ait accès aux fonctionnalités de plusieurs rôles différents à la fois.
+* Cliquez sur le bouton "Sauvegarder" en bas de la page. Un email est envoyé automatiquement à l'adresse indiquée, invitant l'utilisateur à se choisir un mot de passe pour activer son compte et l'utiliser.
+* Retournez dans la rubrique "Administration">"Gestion des utilisateurs"
+* Retrouvez tout à la fin de la liste des utilisateurs le nouveau compte que vous venez de créer, et notez son "ID" tout à gauche de la ligne.
+* Rendez-vous dans la rubrique "Entités">"User Profile"
+* Cliquez sur le bouton "Créer un nouveau User Profile"
+* Renseignez les informations "Téléphone", "Nom de Société", "Siret", "Adresse", "Département", "Région"
+* Renseignez dans le champ "User" l'ID du compte utilisateur que vous venez de créer
+* Si il s'agit d'un compte opérateur ou d'un membre d'un organisme de qualification, renseignez dans le champ "Qualification Body" le "Name" de l'organisme auprès duquel il est certificé, ou auquel il appartient.
+* Cliquez sur le bouton "Sauvegarder"
+* La création du compte est achevée.
 
 <br/><br/>
 <a href="#top"> <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
