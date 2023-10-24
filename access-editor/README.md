@@ -124,7 +124,7 @@ HTTP/1.1 200 OK
 ```
 
 ### iv. API <a name="api"></a> 
-La documentation détaillée des actions disponibles via l'API est disponible [sur cette page de l'Observatoire National Ventilation](https://onv-test.dooapp.com/editor/docs).
+La documentation détaillée des actions disponibles via l'API est disponible [sur cette page de l'Observatoire National Ventilation](https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/editor/docs).
 
 <br/><br/>
 <a href="#top"> <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a> 
