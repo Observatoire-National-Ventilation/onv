@@ -27,7 +27,7 @@ Attention, le lien d’activation reste valide 24 heures. Passé ce délai, vous
 
 <kbd>
     <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_connexion.png" alt="Créer votre mot de passe">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_connexion.png?raw=true" alt="Créer votre mot de passe">
     </a>    
 </kbd>    
 <br/><br/>
@@ -40,7 +40,7 @@ Vous êtes ensuite invité à vous connecter à votre compte avec:
 
 <kbd>
     <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_creation_mdp.png" alt="Créer votre mot de passe">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_creation_mdp.png?raw=true" alt="Créer votre mot de passe">
     </a>    
 </kbd>    
 <br/><br/>
@@ -49,7 +49,7 @@ Vous êtes ensuite connecté à votre compte sur le site de l’Observatoire Nat
 
 <kbd>
     <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_connexion_ok.png" alt="Créer votre mot de passe">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_connexion_ok.png?raw=true" alt="Créer votre mot de passe">
     </a>    
 </kbd>    
 <br/><br/>
@@ -59,7 +59,7 @@ En cliquant dans le menu du site sur “Compte” puis sur “Profil” vous acc
 
 <kbd>
     <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_edition_profil.png" alt="Créer votre mot de passe">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_edition_profil.png?raw=true" alt="Créer votre mot de passe">
     </a>    
 </kbd>    
 <br/><br/>
@@ -85,7 +85,7 @@ Renseignez le numéro de qualification de l’opérateur dont vous souhaitez ré
 
 <kbd>
     <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_donnees.png" alt="Créer votre mot de passe">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_donnees.png?raw=true" alt="Créer votre mot de passe">
     </a>    
 </kbd>    
 <br/><br/>
@@ -96,7 +96,7 @@ Cela provoque le téléchargement d’un fichier au format Excel, dont le nom co
 
 <kbd>
     <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_telecharge.png" alt="Créer votre mot de passe">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_telecharge.png?raw=true" alt="Créer votre mot de passe">
     </a>    
 </kbd>    
 <br/><br/>
