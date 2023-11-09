@@ -75,7 +75,7 @@ Les informations “Nom de Société”, “Siret”, “Département” et “R
 * Cliquez sur le bouton “Sauvegarder” en bas de l’écran après avoir modifié une ou plusieurs de ces informations pour valider votre changement.
 
 
-##3. Exporter les résultats des contrôles d’un opérateur qualifié
+## 3. Exporter les résultats des contrôles d’un opérateur qualifié
 
 L’Observatoire National Ventilation vous permet de télécharger les données des contrôles de ventilation RE2020 publiés par les opérateurs qualifiés par votre organisme de qualification afin de suivre leur activité.
 
@@ -113,3 +113,6 @@ Ce fichier Excel contient sous la forme d’un tableau les données suivantes :
 - Date de création de la référence sur l'Observatoire National Ventilation
 - Conformité réglementaire du bâtiment
 - Conformité réglementaire du système
+
+  <br/><br/>
+<a href="#top"> <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
