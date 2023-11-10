@@ -26,10 +26,8 @@ Si le lien ne vous permet pas d’accéder à la page d’initialisation du mot 
 Attention, le lien d’activation reste valide 24 heures. Passé ce délai, vous devrez renouveler votre demande via la fonctionnalité “Mot de passe oublié”.
 
 <kbd>
-    <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_connexion.png?raw=true" alt="Créer votre mot de passe">
-    </a>    
-</kbd>    
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/set_password.png?raw=true" alt="Créer votre mot de passe">
+ </kbd>    
 <br/><br/>
 
 Dans la page qui s’ouvre lorsque vous avez cliqué sur le lien, choisissez votre mot de passe, de telle sorte à ce que l’indicateur de robustesse de celui-ci soit dans le vert pour une sécurité optimale de votre compte.
@@ -39,28 +37,22 @@ Vous êtes ensuite invité à vous connecter à votre compte avec:
  - et votre mot de passe.
 
 <kbd>
-    <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_creation_mdp.png?raw=true" alt="Créer votre mot de passe">
-    </a>    
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_creation_mdp.png?raw=true" alt="Créer votre mot de passe">  
 </kbd>    
 <br/><br/>
 
 Vous êtes ensuite connecté à votre compte sur le site de l’Observatoire National Ventilation.
 
 <kbd>
-    <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_connexion_ok.png?raw=true" alt="Créer votre mot de passe">
-    </a>    
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_connexion_ok.png?raw=true" alt="Mot de passe créé avec succès">  
 </kbd>    
 <br/><br/>
 
-## 2. Modifier votre profil
+## 2. Modifier votre profil <a name="modify"></a>
 En cliquant dans le menu du site sur “Compte” puis sur “Profil” vous accédez à vos informations de profil.
 
 <kbd>
-    <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_edition_profil.png?raw=true" alt="Créer votre mot de passe">
-    </a>    
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_edition_profil.png?raw=true" alt="Après une connexion réussie">    
 </kbd>    
 <br/><br/>
 
@@ -75,7 +67,7 @@ Les informations “Nom de Société”, “Siret”, “Département” et “R
 * Cliquez sur le bouton “Sauvegarder” en bas de l’écran après avoir modifié une ou plusieurs de ces informations pour valider votre changement.
 
 
-## 3. Exporter les résultats des contrôles d’un opérateur qualifié
+## 3. Exporter les résultats des contrôles d’un opérateur qualifié <a name="export"></a>
 
 L’Observatoire National Ventilation vous permet de télécharger les données des contrôles de ventilation RE2020 publiés par les opérateurs qualifiés par votre organisme de qualification afin de suivre leur activité.
 
@@ -84,10 +76,8 @@ Pour cela, cliquez sur “Données des contrôles des opérateurs” dans le men
 Renseignez le numéro de qualification de l’opérateur dont vous souhaitez récupérer les données de contrôle, ainsi que la période que vous souhaitez.
 
 <kbd>
-    <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_donnees.png?raw=true" alt="Créer votre mot de passe">
-    </a>    
-</kbd>    
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_donnees.png?raw=true" alt="Export données">
+ </kbd>    
 <br/><br/>
 
 Cliquez ensuite sur le bouton “Télécharger les données” en bas de l’écran.
@@ -95,9 +85,7 @@ Cliquez ensuite sur le bouton “Télécharger les données” en bas de l’éc
 Cela provoque le téléchargement d’un fichier au format Excel, dont le nom contient “export_ONV_” puis l’identifiant de l’opérateur, puis les dates de début et de fin de la période concernée.
 
 <kbd>
-    <a name="setPassword">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_telecharge.png?raw=true" alt="Créer votre mot de passe">
-    </a>    
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_telecharge.png?raw=true" alt="Fichier téléchargé">    
 </kbd>    
 <br/><br/>
 
