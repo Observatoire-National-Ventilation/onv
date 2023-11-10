@@ -43,7 +43,7 @@ L'API de l'Observatoire National Ventilation utilise des clés secrètes pour au
 <kbd>
     <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/generate_secret_key.png?raw=true" alt="Générer une clé secrète">
 </kbd>
-<br/><br/>
+<br/><br/> 
 
 Cliquez alors sur le bouton "Générer la clé secrète" pour obtenir la clé secrète de votre application.
 
