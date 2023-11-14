@@ -1,6 +1,6 @@
 
 <a name="top"></a>
-# <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation <br>Guide d'utilisation pour l'accès opérateur
+# <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation <br>Guide d'utilisation pour l'accès opérateur
 
 1. [Création et activation de votre compte](#creation)
 2. [Modifier votre profil](#profilePage)
@@ -24,7 +24,7 @@ Attention, le lien d'activation reste valide 24 heures. Passé ce délai, vous d
 
 <kbd>
     <a name="setPassword">
-        <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/set_password.png?raw=true" alt="Créer votre mot de passe">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/set_password.png?raw=true" alt="Créer votre mot de passe">
     </a>    
 </kbd>    
 <br/><br/>
@@ -36,14 +36,14 @@ Vous êtes ensuite invité à vous connecter à votre compte avec:
  - et votre mot de passe.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/password_created_success.png?raw=true" alt="Succès de la configuration du mot de passe">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/password_created_success.png?raw=true" alt="Succès de la configuration du mot de passe">
 </kbd>
 <br/><br/>
 
 Vous êtes ensuite connecté à votre compte sur le site de l’Observatoire National Ventilation.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/logged-in_home.png?raw=true" alt="Page d'accueil après la connexion">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/logged-in_home.png?raw=true" alt="Page d'accueil après la connexion">
 </kbd>
 <br/><br/>
 
@@ -53,7 +53,7 @@ En cliquant dans le menu du site sur “Compte” puis sur “Profil” vous acc
 
 <kbd>
     <a name="pageProfile">
-        <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/edit_profile.png?raw=true" alt="Page de profil">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/edit_profile.png?raw=true" alt="Page de profil">
     </a>
 </kbd>
 <br/><br/>
@@ -94,7 +94,7 @@ Lorsque vous avez complété votre fichier avec les données de votre contrôle:
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
     </a>    
 </kbd>
 <br/><br/>
@@ -104,7 +104,7 @@ Cliquez sur le bouton “Importer un contrôle de ventilation” en haut à droi
 Une fenêtre s’ouvre :
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/popup_import.jpg?raw=true" alt="Fenêtre popup d'importation">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/popup_import.jpg?raw=true" alt="Fenêtre popup d'importation">
 </kbd>
 <br/><br/>
 
@@ -113,7 +113,7 @@ Le bouton “Choisir un fichier” vous permet de sélectionner sur votre disque
 Si le contenu du fichier respecte les règles attendues par l’Observatoire National Ventilation, alors le contrôle est publié et vous en avez la confirmation par ce message à l’écran :
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/import_success.png?raw=true" alt="Message de réussite de l'importation">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/import_success.png?raw=true" alt="Message de réussite de l'importation">
 </kbd>
 <br>
 
@@ -123,7 +123,7 @@ A. Fichier non publié avec message d’information
 Si le contenu du fichier ne respecte pas une ou plusieurs des règles attendues par l’Observatoire National Ventilation liste dans le mode d’emploi l'outil de saisie manuelle), le contrôle n’est pas publié et un ou plusieurs messages vous informent des anomalies constatées. Vous êtes invité à corriger ces anomalies avant de pouvoir publier votre contrôle sur l’Observatoire National Ventilation. L’extraction ci-dessous est un exemple de messages d’anomalies.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/import_error.png?raw=true" alt="Message d'échec de l'importation">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/import_error.png?raw=true" alt="Message d'échec de l'importation">
 </kbd>
 <br/><br/>
 
@@ -132,7 +132,7 @@ B. Fichier non publié mais avec message d’erreur
 Dans un cas particulier, votre contrôle s’importe correctement, mais un message d’avertissement vous est tout de même affiché : il s’agit du cas où l’ensemble des mesures fonctionnelles aux bouches normalement attendues pour le contrôle n’est pas présent dans votre fichier. Si l’absence de certaines de ces mesures fonctionnelles aux bouches n’est pas justifiée et qu’il s’agit d’un oubli ou d’une erreur, il vous faudra alors mettre à jour votre contrôle par la suite pour les ajouter.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/file_already_exists.png?raw=true" alt="Contrôle déjà existant">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/file_already_exists.png?raw=true" alt="Contrôle déjà existant">
 </kbd>
 <br/><br/>
 
@@ -141,7 +141,7 @@ C. Fichier publié mais avec message d’avertissement
 Votre contrôle s’importe correctement, mais un message d’avertissement vous est tout de même affiché : il s’agit du cas où l’ensemble des mesures fonctionnelles aux bouches normalement attendues pour le contrôle n’est pas présent dans votre fichier. Si l’absence de certaines de ces mesures fonctionnelles aux bouches n’est pas justifiée et qu’il s’agit d’un oubli ou d’une erreur, il vous faudra alors mettre à jour votre contrôle par la suite pour les ajouter.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/import_with_warning.png?raw=true" alt="Importation réussie avec message d'avertissement">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/import_with_warning.png?raw=true" alt="Importation réussie avec message d'avertissement">
 </kbd>
 <br/><br/>
 
@@ -153,7 +153,7 @@ La publication de vos résultats de contrôles de ventilation est aussi possible
 Nota: lors de votre première publication, le logiciel vous redirigera vers votre compte sur le site de l'Observatoire National Ventilation afin que vous donniez l'autorisation à votre logiciel de publier vos contrôles sur votre compte.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/grant-access.png?raw=true" alt="Accorder l'accès au logiciel">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/grant-access.png?raw=true" alt="Accorder l'accès au logiciel">
 </kbd>
 <br/><br/>
 
@@ -162,7 +162,7 @@ Nota: lors de votre première publication, le logiciel vous redirigera vers votr
 Connectez-vous sur le site de l’Observatoire National Ventilation, et cliquez sur “Mes contrôles de ventilation” dans le menu.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/all_reports.png?raw=true" alt="Tous les rapports">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/all_reports.png?raw=true" alt="Tous les rapports">
 </kbd>
 <br/><br/>
 
@@ -196,4 +196,4 @@ ou
 - à importer un nouveau contrôle si cela était votre intention.
 
 <br/><br/>
-<a href="#top"> <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
+<a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
