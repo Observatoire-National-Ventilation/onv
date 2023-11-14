@@ -1,6 +1,6 @@
 
 <a name="top"></a>
-#  <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation <br>Guide d'utilisation pour l'accès éditeur
+#  <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation <br>Guide d'utilisation pour l'accès éditeur
 
 1. [Création de compte éditeur](#creation)
 2. [API Reference](#apiReference)
@@ -20,14 +20,14 @@ Pour pouvoir utiliser l'API de l'Observatoire, il est nécessaire de créer un c
 Pour créer votre compte Editeur, rendez-vous sur l'Observatoire National Ventilation, cliquez sur le bouton "Connexion", puis en bas de la page, cliquez sur le bouton "Créer un compte éditeur".
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/create_editor_compte.png?raw=true" alt="Création de compte utilisateur">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/create_editor_compte.png?raw=true" alt="Création de compte utilisateur">
 </kbd>
 <br/><br/>
 
 Remplissez ensuite le formulaire en renseignant toutes les informations demandées. Vous recevrez alors un email généré automatiquement par l’Observatoire National Ventilation pour valider la création de votre compte éditeur et choisir votre mot de passe pour sécuriser l'accès à votre compte.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/set_password.png?raw=true" alt="Créer votre mot de passe">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/set_password.png?raw=true" alt="Créer votre mot de passe">
 </kbd>
 <br/><br/>
 
@@ -41,7 +41,7 @@ L'API de l'Observatoire National Ventilation utilise des clés secrètes pour au
  - Pour obtenir votre clé secrète, connectez-vous à votre compte éditeur sur l'Observatoire et rendez-vous dans le menu Compte > Mon application
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/generate_secret_key.png?raw=true" alt="Générer une clé secrète">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/generate_secret_key.png?raw=true" alt="Générer une clé secrète">
 </kbd>
 <br/><br/> 
 
@@ -89,7 +89,7 @@ authorization-key: dsWYDvnkvU8jHOD2yClv`
 En ouvrant l'url ``GrantAccessUrl`` dans son navigateur, l'opérateur s'authentifie et peut ensuite valider ou refuser la demande d'accès du logiciel à son compte.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/grant-access.png?raw=true" alt="Accorder l'accès au logiciel">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/grant-access.png?raw=true" alt="Accorder l'accès au logiciel">
 </kbd>
 <br/><br/>
 
@@ -127,4 +127,4 @@ HTTP/1.1 200 OK
 La documentation détaillée des actions disponibles via l'API est disponible [sur cette page de l'Observatoire National Ventilation](https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/editor/docs).
 
 <br/><br/>
-<a href="#top"> <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a> 
+<a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a> 
