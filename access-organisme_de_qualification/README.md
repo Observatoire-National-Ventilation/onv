@@ -1,6 +1,6 @@
 
 <a name="top"></a>
-#  <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation <br>Guide d’utilisation Organisme de Qualification
+#  <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation <br>Guide d’utilisation Organisme de Qualification
 
 1. [Création et activation de votre compte](#creation)
 2. [Modifier votre profil](#modify)
@@ -103,4 +103,4 @@ Ce fichier Excel contient sous la forme d’un tableau les données suivantes :
 - Conformité réglementaire du système
 
   <br/><br/>
-<a href="#top"> <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
+<a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
