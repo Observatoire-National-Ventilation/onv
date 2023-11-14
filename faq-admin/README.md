@@ -1,4 +1,4 @@
-#   <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation - FAQ Administrateurs
+#   <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation - FAQ Administrateurs
 
 ## FAQ à destination des administrateurs de l'Observatoire National Ventilation.
 
@@ -15,7 +15,7 @@ Cette opération nécessite un accès Administrateur à la plateforme.
 Se rendre dans le menu Administration > Gestion des utilisateurs puis cliquer sur le bouton "Ré-envoyer le mail d'activation" au niveau du compte concerné.
 
 <kbd>
-    <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/admin_resend_email.png?raw=true" alt="Renvoyer l'email du mot de passe">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/admin_resend_email.png?raw=true" alt="Renvoyer l'email du mot de passe">
 </kbd>
 <br/><br/>
 
@@ -34,7 +34,7 @@ Cette opération peut-être effectuée par un administrateur de la plateforme :
 * cliquer sur le bouton "Editer" du logiciel concerné
 * effacer la clé de sécurité dans le formulaire d'édition et enregistrer
 
-L'éditeur peut alors suivre [la procédure initiale](https://dooapp.github.io/onv/access-editor/#2-api-reference-) pour obtenir une nouvelle clé de sécurité.
+L'éditeur peut alors suivre [la procédure initiale](https://github.com/Observatoire-National-Ventilation/onv/access-editor/#2-api-reference-) pour obtenir une nouvelle clé de sécurité.
 
 ## 2022-3 Comment créer un nouveau compte utilisateur? <a name="faq2022-3"></a>
 
@@ -61,4 +61,4 @@ Pour cela, suivez les étapes suivantes :
 * La création du compte est achevée.
 
 <br/><br/>
-<a href="#top"> <img src="https://github.com/dooApp/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
+<a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
