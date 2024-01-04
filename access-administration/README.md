@@ -44,7 +44,7 @@ Vous êtes ensuite invité à vous connecter à votre compte avec:
 Vous êtes ensuite connecté à votre compte sur le site de l’Observatoire National Ventilation.
 
 <kbd>
-    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_connexion_ok.png?raw=true" alt="Mot de passe créé avec succès">  
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_administration_connexion.png?raw=true" alt="Mot de passe créé avec succès">  
 </kbd>    
 <br/><br/>
 
