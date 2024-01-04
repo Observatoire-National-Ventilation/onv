@@ -69,38 +69,22 @@ Les informations “Nom de Société”, “Siret”, “Département” et “R
 
 ## 3. Exporter les données <a name="export"></a>
 
-L’Observatoire National Ventilation vous permet de télécharger les données des contrôles de ventilation RE2020 publiés par les opérateurs qualifiés par votre organisme de qualification afin de suivre leur activité.
+L’Observatoire National Ventilation vous permet de télécharger l'ensemble des données des contrôles de ventilation RE2020 publiés par les opérateurs qualifiés.
 
-Pour cela, cliquez sur “Données des contrôles des opérateurs” dans le menu.
+Pour cela, cliquez sur “Export des données” dans le menu "Administration".
 
-Renseignez le numéro de qualification de l’opérateur dont vous souhaitez récupérer les données de contrôle, ainsi que la période que vous souhaitez.
+Renseignez la période pour laquelle que vous souhaitez télécharger les données.
 
 <kbd>
-    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_donnees.png?raw=true" alt="Export données">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_administration_export_donnees.png?raw=true" alt="Export données">
  </kbd>    
 <br/><br/>
 
 Cliquez ensuite sur le bouton “Télécharger les données” en bas de l’écran.
 
-Cela provoque le téléchargement d’un fichier au format Excel, dont le nom contient “export_ONV_” puis l’identifiant de l’opérateur, puis les dates de début et de fin de la période concernée.
+Cela provoque l'envoi d'un email à votre adresse, intitulé "Observatoire National Ventilation - Export des données" envoyé par l'adresse "no-reply@observatoire-national-ventilation.developpement-durable.gouv.fr". Cet email contient un lien de téléchargement. Cliquez dessus et le téléchargement des données se réalisera sur votre poste.
 
-<kbd>
-    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_telecharge.png?raw=true" alt="Fichier téléchargé">    
-</kbd>    
-<br/><br/>
-
-Ce fichier Excel contient sous la forme d’un tableau les données suivantes : 
-- Reference du rapport
-- Nom de l'opération
-- Code postal de l'opération
-- Identifiant du bâtiment
-- Type de bâtiment
-- Identifiant du système de ventilation
-- Type de système de ventilation
-- Date de vérification sur site
-- Date de création de la référence sur l'Observatoire National Ventilation
-- Conformité réglementaire du bâtiment
-- Conformité réglementaire du système
+Le fichier téléchargé est au format ".zip". Ce fichier compressé contient l'ensemble des contrôles publiés de la période choisie au format JSON.
 
   <br/><br/>
 <a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
