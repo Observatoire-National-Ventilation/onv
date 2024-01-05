@@ -50,7 +50,7 @@ En cliquant sur cette icône, vous rafraîchissez le contenu de la carte ou du g
     </a>    
 </kbd>
 
-En cliquant sur cette icône, vous téléchargez sous forme d'un fichier image la carte ou le graphique affiché à l'écran.
+En cliquant sur cette icône, vous téléchargez sous forme d'un fichier image (format .png) la carte ou le graphique affiché à l'écran.
 
 ### i. Localisation géographique des mesureurs <a name="stat1"></a>
 
@@ -67,6 +67,10 @@ Vous pouvez passer votre curseur sur chaque département pour voir le code INSEE
 <br/><br/>
 
 ### ii. Localisation géographique des mesures <a name="stat2"></a>
+
+Cette statistique se présente en deux parties :
+- une carte interactive du nombre de mesures réalisées par département.
+- un graphique présentant l'évolution du nombre de mesures réalisées dans un département au fil des années 
 
 <kbd>
     <a name="myControls">
