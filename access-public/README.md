@@ -34,7 +34,30 @@ Une première statistique, la plus simple, est le nombre de contrôles de ventil
 
 Ensuite, une série de statistiques vous est présentée sous forme de cartes ou de graphiques, la plupart paramétrables.
 
+En bas à droite de chacune de ces statistiques, deux fonctionnalités vous sont proposées :
+
+<kbd>
+    <a name="myControls">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+    </a>    
+</kbd>
+
+En cliquant sur cette icône, vous rafraîchissez le contenu de la carte ou du graphique et réinitilisez les paramètres que vous avez pu modifier depuis votre arrivée sur cette page.
+
+<kbd>
+    <a name="myControls">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+    </a>    
+</kbd>
+
+En cliquant sur cette icône, vous téléchargez sous forme d'un fichier image la carte ou le graphique affiché à l'écran.
+
 ### i. Localisation géographique des mesureurs <a name="stat1"></a>
+
+Cette statistique est une carte interactive du nombre de mesureurs certifiés par département.
+La légende en bas à gauche vous montre la plage de couleurs, du département où il y a le moins de mesureurs certifiés jusqu'au département où il y en a le plus.
+
+Vous pouvez passer votre curseur sur chaque département pour voir le code INSEE du département et le nombre exact de mesureurs certifiés qui y sont basés.
 
 <kbd>
     <a name="myControls">
@@ -89,6 +112,8 @@ Ensuite, une série de statistiques vous est présentée sous forme de cartes ou
 <br/><br/>
 
 ## 3. Page Liens Utiles <a name="usefulLinks"></a>
+
+Cette page vous donne accès aux sites officiels de référence sur le thème de la ventilation des bâtiments.
 
 <br/><br/>
 <a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
