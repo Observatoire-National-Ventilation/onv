@@ -19,7 +19,7 @@
 La page d'accueil de l'Observatoire National Ventilation vous présente son origine, son contenu ainsi que ses objectifs. 
 
 <kbd>
-    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/password_created_success.png?raw=true" alt="Succès de la configuration du mot de passe">
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc-public-home.png?raw=true" alt="Accueil">
 </kbd>
 <br/><br/>
 
@@ -38,7 +38,7 @@ En bas à droite de chacune de ces statistiques, deux fonctionnalités vous sont
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/icon-refresh.png?raw=true" alt="bouton de réinitialisation">
     </a>    
 </kbd>
 
@@ -46,7 +46,7 @@ En cliquant sur cette icône, vous rafraîchissez le contenu de la carte ou du g
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/icon-download.png?raw=true" alt="bouton de téléchargement">
     </a>    
 </kbd>
 
@@ -61,7 +61,7 @@ Vous pouvez passer votre curseur sur chaque département pour voir le code INSEE
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/stat-1.png?raw=true" alt="Statistique 1">
     </a>    
 </kbd>
 <br/><br/>
@@ -74,7 +74,7 @@ Cette statistique se présente en deux parties :
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/stat-2.png?raw=true" alt="Statistique 2">
     </a>    
 </kbd>
 <br/><br/>
@@ -83,7 +83,7 @@ Cette statistique se présente en deux parties :
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/stat-3.png?raw=true" alt="Statistique 3">
     </a>    
 </kbd>
 <br/><br/>
@@ -92,7 +92,7 @@ Cette statistique se présente en deux parties :
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/stat-4.png?raw=true" alt="Statistique 4">
     </a>    
 </kbd>
 <br/><br/>
@@ -101,7 +101,7 @@ Cette statistique se présente en deux parties :
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/stat-5.png?raw=true" alt="Statistique 5">
     </a>    
 </kbd>
 <br/><br/>
@@ -110,7 +110,7 @@ Cette statistique se présente en deux parties :
 
 <kbd>
     <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/click_button_import.png?raw=true" alt="bouton d'importation du rapport de ventilation">
+        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/stat-6.png?raw=true" alt="Statistique 6">
     </a>    
 </kbd>
 <br/><br/>
