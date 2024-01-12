@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## ONV - Guide accès Administrateurs
 
 #   <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/logo-onv.png?raw=true" align="left" height="80" width="200" > Observatoire National Ventilation - FAQ Administrateurs
