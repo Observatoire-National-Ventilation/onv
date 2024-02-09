@@ -3,7 +3,7 @@
 1. [Page d'Accueil](#home)
 2. [Page Statistiques](#statistics)
     1. [Localisation géographique des mesureurs](#stat1)
-    2. [Localisation géographique des mesures](#stat2)
+    2. [Localisation géographique des vérifications et mesures](#stat2)
     3. [Evolution dans le temps du nombre de systèmes vérifiés par an](#stat3)
     4. [Types de systèmes de ventilation par typologie de bâtiment](#stat4)
     5. [Nombre de systèmes de ventilation conformes](#stat5)
@@ -26,9 +26,9 @@ Un résumé des statistiques vous est ensuite présenté, vous permettant en cli
 
 ## 2. Page statistiques <a name="statistics"></a>
 
-L'un des principaux objectifs de l'Observatoire National Ventilation est de vous permettre de consulter des statistiques construites en temps réel sur la base des contrôles de ventilation réalisés partout en France dans le cadre de la RE2020. 
+L'un des principaux objectifs de l'Observatoire National Ventilation est de vous permettre de consulter des statistiques construites en temps réel sur la base des vérifications et mesures réalisées partout en France dans le cadre de la RE2020. 
 
-Une première statistique, la plus simple, est le nombre de contrôles de ventilation RE2020 publiés depuis la mise en service de l'Observatoire National Ventilation. Ce chiffre est affiché en couleur rouge juste après l'introduction de la page.
+Une première statistique, la plus simple, est le nombre de vérifications et mesures publiées depuis la mise en service de l'Observatoire National Ventilation. Ce chiffre est affiché en couleur rouge juste après l'introduction de la page.
 
 Ensuite, une série de statistiques vous est présentée sous forme de cartes ou de graphiques, la plupart paramétrables.
 
@@ -64,11 +64,11 @@ Vous pouvez passer votre curseur sur chaque département pour voir le code INSEE
 </kbd>
 <br/><br/>
 
-### ii. Localisation géographique des mesures <a name="stat2"></a>
+### ii. Localisation géographique des vérifications et mesures <a name="stat2"></a>
 
 Cette statistique se présente en deux parties :
-- une carte interactive du nombre de mesures réalisées par département.
-- un graphique présentant l'évolution du nombre de mesures réalisées dans un département au fil des années 
+- une carte interactive du nombre de vérifications et mesures réalisées par département.
+- un graphique présentant l'évolution du nombre de vérifications et mesures réalisées dans un département au fil des années 
 
 <kbd>
     <a name="myControls">
