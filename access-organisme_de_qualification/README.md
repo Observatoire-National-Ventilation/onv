@@ -2,7 +2,7 @@
 
 1. [Création et activation de votre compte](#creation)
 2. [Modifier votre profil](#modify)
-3. [Exporter les résultats des contrôles d’un opérateur qualifié](#export)
+3. [Exporter les résultats des vérifications et mesures d’un opérateur qualifié](#export)
 
 ----
 
@@ -65,13 +65,13 @@ Les informations “Nom de Société”, “Siret”, “Département” et “R
 * Cliquez sur le bouton “Sauvegarder” en bas de l’écran après avoir modifié une ou plusieurs de ces informations pour valider votre changement.
 
 
-## 3. Exporter les résultats des contrôles d’un opérateur qualifié <a name="export"></a>
+## 3. Exporter les résultats des vérifications et mesures d’un opérateur qualifié <a name="export"></a>
 
-L’Observatoire National Ventilation vous permet de télécharger les données des contrôles de ventilation RE2020 publiés par les opérateurs qualifiés par votre organisme de qualification afin de suivre leur activité.
+L’Observatoire National Ventilation vous permet de télécharger les données des vérifications et mesures publiées par les opérateurs qualifiés par votre organisme de qualification afin de suivre leur activité.
 
 Pour cela, cliquez sur “Données des contrôles des opérateurs” dans le menu.
 
-Renseignez le numéro de qualification de l’opérateur dont vous souhaitez récupérer les données de contrôle, ainsi que la période que vous souhaitez.
+Renseignez le numéro de qualification de l’opérateur dont vous souhaitez récupérer les données de vérifications et mesures, ainsi que la période que vous souhaitez.
 
 <kbd>
     <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/doc_qualif_export_donnees.png?raw=true" alt="Export données">
