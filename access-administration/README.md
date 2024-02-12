@@ -9,7 +9,7 @@
 ## 1. Création et activation de votre compte <a name="creation"></a>
 
 En tant que membre d'une administration publique, vous disposez d’un compte utilisateur spécifique vous permettant d’accéder aux fonctionnalités de l’Observatoire National Ventilation propres aux administrations publiques.
-Pour obtenir un compte, votre organisation doit en faire la demande au gestionnaire technique de l’Observatoire en lui précisant les informations suivantes : 
+Pour obtenir un compte, votre organisation doit en faire la demande au gestionnaire technique de l’Observatoire National Ventilation en lui précisant les informations suivantes : 
  - Un identifiant personnel
  - Votre adresse email
  - Votre nom et prénom
@@ -17,7 +17,7 @@ Pour obtenir un compte, votre organisation doit en faire la demande au gestionna
 
 Vous êtes prévenu de la création de votre compte par un email intitulé “Activation de votre compte Observatoire National Ventilation” envoyé à l’adresse email fournie.
 
-Cet email contient un lien vous permettant d’activer votre compte et de [définir votre mot de passe.](https://observatoire-national-ventilation.github.io/onv/access-operator/#setPassword)
+Cet email contient un lien vous permettant d’activer votre compte et de [définir votre mot de passe.](https://-national-ventilation.github.io/onv/access-operator/#setPassword)
 
 Si le lien ne vous permet pas d’accéder à la page d’initialisation du mot de passe, veuillez le copier-coller directement dans votre navigateur.
 
