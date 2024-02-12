@@ -79,6 +79,12 @@ Cette statistique se présente en deux parties :
 
 ### iii. Evolution dans le temps du nombre de systèmes vérifiés par an <a name="stat3"></a>
 
+Cette statistique présente pour chaque année le nombre de systèmes vérifiés, par type de construction (maisons individuelles et immeubles collectifs).
+
+Vous pouvez passer votre curseur sur le graphique pour voir le nombre exact de chaque catégorie.
+
+Vous avez la possibilité de zoomer sur une année précise avec la barre horizontale sous le graphique. Vous pouvez sélectionner dans la légende la ou les séries de données à afficher.
+
 <kbd>
     <a name="myControls">
         <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/stat-3.png?raw=true" alt="Statistique 3">
@@ -88,6 +94,12 @@ Cette statistique se présente en deux parties :
 
 ### iv. Types de systèmes de ventilation par typologie de bâtiment <a name="stat4"></a>
 
+Cette statistique présente pour chaque année le nombre de systèmes vérifiés, par type de construction (maisons individuelles et immeubles collectifs) et par type de systèmes de ventilation ("Simple Flux Hygro A", "Simple Flux Hygro B", "Simple Flux Autoréglable", "Simple Flux Gaz", "Mécanique Ponctuelle", "Double Flux", "Mixte Simple et Double Flux").
+
+Vous pouvez utiliser les menus déroulant pour limiter le contenu du graphique à un type de construction et/ou à un type de système de ventilation.
+
+Vous avez la possibilité de zoomer sur une année précise avec la barre horizontale sous le graphique. En survolant les histogrammes, le détail des données s'affiche.
+
 <kbd>
     <a name="myControls">
         <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/stat-4.png?raw=true" alt="Statistique 4">
@@ -96,6 +108,12 @@ Cette statistique se présente en deux parties :
 <br/><br/>
 
 ### v. Nombre de systèmes de ventilation conformes <a name="stat5"></a>
+
+Cette statistique présente la courbe de l'évolution année après année du taux de conformité des systèmes de ventilation vérifiés et mesurés, pour le type de construction "Maisons Individuelles", pour le type de construction "Immeubles Collectifs", et pour l'ensemble de ces deux types de construction.
+
+Vous pouvez utiliser le menus déroulant pour que le contenu du graphique ne tiennent compte que des vérifications et mesures portant sur un seul type de système de ventilation.
+
+Vous avez la possibilité de zoomer sur une année précise avec la barre horizontale sous le graphique. En survolant le graphique, le détail des données s'affiche pour l'année visée.
 
 <kbd>
     <a name="myControls">
