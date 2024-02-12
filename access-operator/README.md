@@ -125,16 +125,7 @@ Si le contenu du fichier ne respecte pas une ou plusieurs des règles attendues 
 </kbd>
 <br/><br/>
 
-B. Fichier non publié mais avec message d’erreur
-
-Dans un cas particulier, votre contrôle s’importe correctement, mais un message d’avertissement vous est tout de même affiché : il s’agit du cas où l’ensemble des mesures fonctionnelles aux bouches normalement attendues pour le contrôle n’est pas présent dans votre fichier. Si l’absence de certaines de ces mesures fonctionnelles aux bouches n’est pas justifiée et qu’il s’agit d’un oubli ou d’une erreur, il vous faudra alors mettre à jour votre contrôle par la suite pour les ajouter.
-
-<kbd>
-    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/file_already_exists.png?raw=true" alt="Contrôle déjà existant">
-</kbd>
-<br/><br/>
-
-C. Fichier publié mais avec message d’avertissement
+B. Fichier publié mais avec message d’avertissement
 
 Votre contrôle s’importe correctement, mais un message d’avertissement vous est tout de même affiché : il s’agit du cas où l’ensemble des mesures fonctionnelles aux bouches normalement attendues pour le contrôle n’est pas présent dans votre fichier. Si l’absence de certaines de ces mesures fonctionnelles aux bouches n’est pas justifiée et qu’il s’agit d’un oubli ou d’une erreur, il vous faudra alors mettre à jour votre contrôle par la suite pour les ajouter.
 
