@@ -118,7 +118,7 @@ Si le contenu du fichier respecte les règles attendues par l’Observatoire Nat
 #### Message d’information/d’erreur/d’avertissement
 A. Fichier non publié avec message d’information 
 
-Si le contenu du fichier ne respecte pas une ou plusieurs des règles attendues par l’Observatoire National Ventilation liste dans le mode d’emploi l'outil de saisie manuelle), le contrôle n’est pas publié et un ou plusieurs messages vous informent des anomalies constatées. Vous êtes invité à corriger ces anomalies avant de pouvoir publier votre contrôle sur l’Observatoire National Ventilation. L’extraction ci-dessous est un exemple de messages d’anomalies.
+Si le contenu du fichier ne respecte pas une ou plusieurs des règles attendues par l’Observatoire National Ventilation et listées dans le mode d’emploi de l’outil de saisie manuelle, le contrôle n’est pas publié et un ou plusieurs messages vous informent des anomalies constatées. Vous êtes invité à corriger ces anomalies avant de pouvoir publier votre contrôle sur l’Observatoire National Ventilation. L’extraction ci-dessous est un exemple de messages d’anomalies.
 
 <kbd>
     <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/import_error.png?raw=true" alt="Message d'échec de l'importation">
