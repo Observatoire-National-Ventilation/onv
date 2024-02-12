@@ -66,7 +66,7 @@ Vos informations de profil proviennent des informations dont dispose votre organ
 
 ## 3. Publier un résultat de contrôle <a name="publish"></a>
 
-La publication(alimentation de l’Observatoire National Ventilation) de vos résultats de contrôle de ventilation RE2020 est une obligation réglementaire. 
+La publication (alimentation de l’Observatoire National Ventilation) de vos résultats de contrôle de ventilation RE2020 est une obligation réglementaire. 
 
 Pour chacun de vos contrôles de ventilation RE2020, vous devez alimenter l’Observatoire National Ventilation avec les données attendues par celui-ci.
 
