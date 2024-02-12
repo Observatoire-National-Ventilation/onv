@@ -111,7 +111,7 @@ Vous avez la possibilité de zoomer sur une année précise avec la barre horizo
 
 Cette statistique présente la courbe de l'évolution année après année du taux de conformité des systèmes de ventilation vérifiés et mesurés, pour le type de construction "Maisons Individuelles", pour le type de construction "Immeubles Collectifs", et pour l'ensemble de ces deux types de construction.
 
-Vous pouvez utiliser le menus déroulant pour que le contenu du graphique ne tiennent compte que des vérifications et mesures portant sur un seul type de système de ventilation.
+Vous pouvez utiliser le menus déroulant pour que le contenu du graphique ne tienne compte que des vérifications et mesures portant sur un seul type de système de ventilation.
 
 Vous avez la possibilité de zoomer sur une année précise avec la barre horizontale sous le graphique. En survolant le graphique, le détail des données s'affiche pour l'année visée.
 
@@ -123,6 +123,14 @@ Vous avez la possibilité de zoomer sur une année précise avec la barre horizo
 <br/><br/>
 
 ### vi. Taux de conformité des points de vérification et de mesure <a name="stat6"></a>
+
+Cette statistique présente les taux de conformité des points de vérification et de mesure en deux parties, toutes deux présentées sous la forme d'un graphique "en étoile" ou "radar" :
+- A gauche, c'est le taux de conformité de chacune des 8 catégories de points de vérification et de mesure ("Général", "Réseaux", "Caisson de ventilation", "Passages de transit", "Bouches d'extraction", "Bouches de soufflage", "Entrées d'Air" et "Mesures aux bouches") qui est présenté.
+- A droite, c'est le taux de conformité des 8 points de vérification les moins souvent conformes qui apparait.
+
+Les taux affichés sont ceux de l'année sélectionnée dans le menu déroulant en haut à gauche. Vous pouvez utiliser les deux autres menus déroulants pour que le contenu des graphiques ne tienne compte que des vérifications et mesures portant sur un seul type de bâtiment et/ou un seul type de système de ventilation. Cela pourra avoir pour effet de changer les 8 points de vérification les moins souvent conformes du graphique de droite.
+
+Vous pouvez passer votre curseur sur les graphiques pour voir la liste des taux exacts pour chaque axe.
 
 <kbd>
     <a name="myControls">
