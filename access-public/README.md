@@ -52,10 +52,10 @@ En cliquant sur cette icône, vous téléchargez sous forme d'un fichier image (
 
 ### i. Localisation géographique des mesureurs <a name="stat1"></a>
 
-Cette statistique est une carte interactive du nombre de mesureurs certifiés par département.
-La légende en bas à gauche vous montre la plage de couleurs, du département où il y a le moins de mesureurs certifiés jusqu'au département où il y en a le plus.
+Cette statistique est une carte interactive du nombre de opérateurs reconnus par département.
+La légende en bas à gauche vous montre la plage de couleurs, du département où il y a le moins de opérateurs reconnus jusqu'au département où il y en a le plus.
 
-Vous pouvez passer votre curseur sur chaque département pour voir le code INSEE du département et le nombre exact de mesureurs certifiés qui y sont basés.
+Vous pouvez passer votre curseur sur chaque département pour voir le code INSEE du département et le nombre exact de opérateurs reconnus qui y sont basés.
 
 <kbd>
     <a name="myControls">
