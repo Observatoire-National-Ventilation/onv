@@ -12,7 +12,7 @@
   
 ## 1. Création et activation de votre compte <a name="creation"></a>
 
-Votre compte sur l’Observatoire National Ventilation est créé par votre organisme de qualification, suite à l’obtention de votre qualification 8741. Vous êtes prévenu de la création de votre compte par un email intitulé “Activation de votre compte Observatoire National Ventilation” envoyé à l’adresse email que vous avez fournie à votre organisme de qualification.
+Votre compte sur l’Observatoire National Ventilation est créé par votre organisme de qualification, suite à l’obtention de votre qualification pour la vérification des systèmes de ventilation dans le cadre de la RE2020 (qualification 8741 pour l'organisme de qualification Qualibat). Vous êtes prévenu de la création de votre compte par un email intitulé “Activation de votre compte Observatoire National Ventilation” envoyé à l’adresse email que vous avez fournie à votre organisme de qualification.
 
 Cet email contient un lien vous permettant d’activer votre compte et de [définir votre mot de passe](#setPassword). 
 
