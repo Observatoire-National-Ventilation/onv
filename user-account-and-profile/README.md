@@ -9,7 +9,11 @@
 
 Si vous êtes opérateur reconnu, votre compte sur l’Observatoire National Ventilation est créé par votre organisme de qualification, suite à l’obtention de votre qualification pour la vérification des systèmes de ventilation dans le cadre de la RE2020 (qualification 8741 pour l'organisme de qualification Qualibat). 
 
-Si vous êtes représentant d'un organisme de qualification ou d'une administration, votre compte est créé par l'administration de l'Observatoire National Ventilation suite à une demande de création de compte que votre organisation lui a adressée.
+Pour obtenir un compte si vous êtes représentant d'un organisme de qualification ou d'une administration, votre organisation doit en faire la demande au gestionnaire technique de l’Observatoire National Ventilation en lui précisant les informations suivantes :
+    - Un identifiant personnel
+    - Votre adresse email
+    - Votre nom et prénom
+    - Votre numéro de téléphone
 
 Vous êtes prévenu de la création de votre compte par un email intitulé “Activation de votre compte Observatoire National Ventilation” envoyé à l’adresse email que vous avez fournie à votre organisme de qualification, si vous êtes opérateur reconnu, sinon à l'administration de l'Observatoire National ventilation.
 
