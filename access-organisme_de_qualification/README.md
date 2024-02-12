@@ -9,7 +9,7 @@
 ## 1. Création et activation de votre compte <a name="creation"></a>
 
 En tant que représentant d’un organisme de qualification, vous disposez d’un compte utilisateur spécifique vous permettant d’accéder aux fonctionnalités de l’Observatoire National Ventilation propres aux organismes de qualification.
-Pour obtenir un compte, votre organisme de qualification doit en faire la demande à l’administration gestionnaire de l’Observatoire en lui précisant les informations suivantes : 
+Pour obtenir un compte, votre organisme de qualification doit en faire la demande à l’administration gestionnaire de l’Observatoire National Ventilation en lui précisant les informations suivantes : 
  - Un identifiant personnel
  - Votre adresse email
  - Votre nom et prénom
