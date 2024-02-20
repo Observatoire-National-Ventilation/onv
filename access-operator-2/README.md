@@ -25,7 +25,7 @@ ou
 
 ### i. Publication via l’outil de saisie manuelle <a name="import"></a>
 
-La publication de vos résultats de contrôles de ventilation est possible par l’intermédiaire d’un outil de saisie manuelle (fichier Excel) disponible gratuitement par téléchargement dans l’onglet « Documentation ». Ce fichier Excel est dénommé <a href="https://onv-test-1.eu-west-3.elasticbeanstalk.com/documentation" target="_blank">« RE2020_ONV_Outil_Saisie_Manuelle_V1.xlsx »</a>
+La publication de vos résultats de contrôles de ventilation est possible par l’intermédiaire d’un outil de saisie manuelle (fichier Excel) disponible gratuitement par téléchargement dans l’onglet « Documentation ». Ce fichier Excel est dénommé <a href="https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/content/download/RE2020_ONV_Outil_Saisie_Manuelle_v1.xlsx" target="_blank">« RE2020_ONV_Outil_Saisie_Manuelle_V1.xlsx »</a>
 
 Un mode d’emploi est intégré au fichier pour vous donner des indications sur la façon de le remplir.
 
