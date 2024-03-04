@@ -34,7 +34,7 @@ Cette opération peut-être effectuée par un administrateur de la plateforme :
 * cliquer sur le bouton "Editer" du logiciel concerné
 * effacer la clé de sécurité dans le formulaire d'édition et enregistrer
 
-L'éditeur peut alors suivre [la procédure initiale](https://github.com/Observatoire-National-Ventilation/onv/access-editor/#2-api-reference-) pour obtenir une nouvelle clé de sécurité.
+L'éditeur peut alors suivre [la procédure initiale](https://observatoire-national-ventilation.github.io/onv/access-editor/#2-api-reference-) pour obtenir une nouvelle clé de sécurité.
 
 ## 2022-3 Comment créer un nouveau compte utilisateur? <a name="faq2022-3"></a>
 
