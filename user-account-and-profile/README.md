@@ -2,7 +2,7 @@
 
 1. [Création et activation de votre compte](#creation)
 2. [Modifier votre profil](#profilePage)
-
+3. [J'ai une question, à qui dois-je m'adresser?](#whoToAsk)
 ----
   
 ## 1. Création et activation de votre compte <a name="creation"></a>
@@ -10,10 +10,12 @@
 Si vous êtes opérateur reconnu, votre compte sur l’Observatoire National Ventilation est créé par votre organisme de qualification, suite à l’obtention de votre qualification pour la vérification des systèmes de ventilation dans le cadre de la RE2020 (qualification 8741 pour l'organisme de qualification Qualibat). 
 
 Pour obtenir un compte si vous êtes représentant d'un organisme de qualification ou d'une administration, votre organisation doit en faire la demande au gestionnaire technique de l’Observatoire National Ventilation en lui précisant les informations suivantes :
-    - Un identifiant personnel
-    - Votre adresse email
-    - Votre nom et prénom
-    - Votre numéro de téléphone
+- Un identifiant personnel
+- Votre adresse email
+- Votre nom et prénom
+- Votre numéro de téléphone
+
+Cette demande se fait par l'intermédiaire de la page de contact du site RT-RE Bâtiment: https://app.rt-batiment.fr/faq/public/question.php
 
 Vous êtes prévenu de la création de votre compte par un email intitulé “Activation de votre compte Observatoire National Ventilation” envoyé à l’adresse email que vous avez fournie à votre organisme de qualification, si vous êtes opérateur reconnu, sinon à l'administration de l'Observatoire National ventilation.
 
@@ -67,6 +69,16 @@ Sinon, elles proviennent des informations dont a disposé l'administration de l'
  - Les informations qui apparaissent sur fond blanc (adresse email, téléphone, adresse) sont modifiables : n’hésitez pas à les mettre à jour si nécessaire, et notamment votre adresse email si vous en changez afin que vous puissiez toujours recevoir les informations venant de l’Observatoire National Ventilation. 
 
  - Cliquez sur le bouton “Sauvegarder” en bas de l’écran après avoir modifié une ou plusieurs de ces informations pour valider votre changement.
+
+## 3. J'ai une question, à qui dois-je m'adresser? <a name="whoToAsk"></a>
+
+Si vous avez une question concernant votre connexion à l'Observatoire National Ventilation, consultez les guides présents dans l'Observatoire National Ventilation, dans l'onglet documentation: https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/documentation.
+
+Vous pouvez trouver des informations complémentaires dans la foire aux questions dédiée à la vérification des systèmes de ventilation sur le site RT-RE Bâtiment : https://rt-re-batiment.developpement-durable.gouv.fr/verification-des-systemes-de-ventilation-r375.html.
+
+Pour plus de facilité à trouver les questions relatives à l'ONV dans cette foire aux questions, vous pouvez consulter la FAQ 15 du Centre de Ressources Ventilation qui trie par thématique les questions relatives à la vérification des systèmes de ventilation. Vous pouvez ainsi consulter les questions relatives à l'ONV:https://www.batiment-ventilation.fr/outils/faq/15-jai-une-question-sur-le-protocole-ventilation-re2020-et-la-verification-des-systemes-de-ventilation-dans-le-cadre-de-la-re2020-ou-puis-je-trouver-la-reponse-255
+
+Si votre question persiste après la consultation de ces différents lieux d'information, vous pouvez envoyer votre demande par l'intermédiaire de la page de contact du site RT-RE Bâtiment: https://app.rt-batiment.fr/faq/public/question.php"."
 
 <br/><br/>
 <a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
