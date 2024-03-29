@@ -3,6 +3,7 @@
 1. [Création et activation de votre compte](#creation)
 2. [Modifier votre profil](#profilePage)
 3. [J'ai une question, à qui dois-je m'adresser?](#whoToAsk)
+
 ----
   
 ## 1. Création et activation de votre compte <a name="creation"></a>
