@@ -32,7 +32,7 @@ Une première statistique, la plus simple, est le nombre de vérifications et me
 
 Ensuite, une série de statistiques vous est présentée sous forme de cartes ou de graphiques, la plupart paramétrables.
 
-En bas à droite de chacune de ces statistiques, deux fonctionnalités vous sont proposées :
+En bas à droite de chacune de ces statistiques, vous pouvez choisir la fonction :
 
 <kbd>
     <a name="myControls">
@@ -41,14 +41,6 @@ En bas à droite de chacune de ces statistiques, deux fonctionnalités vous sont
 </kbd>
 
 En cliquant sur cette icône, vous rafraîchissez le contenu de la carte ou du graphique et réinitilisez les paramètres que vous avez pu modifier depuis votre arrivée sur cette page.
-
-<kbd>
-    <a name="myControls">
-        <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/icon-download.png?raw=true" alt="bouton de téléchargement">
-    </a>    
-</kbd>
-
-En cliquant sur cette icône, vous téléchargez sous forme d'un fichier image (format .png) la carte ou le graphique affiché à l'écran.
 
 ### i. Localisation géographique des mesureurs <a name="stat1"></a>
 
