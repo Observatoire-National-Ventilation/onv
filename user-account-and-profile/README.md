@@ -11,10 +11,11 @@
 Si vous êtes opérateur reconnu, votre compte sur l’Observatoire National Ventilation est créé par votre organisme de qualification, suite à l’obtention de votre qualification pour la vérification des systèmes de ventilation dans le cadre de la RE2020 (qualification 8741 pour l'organisme de qualification Qualibat). 
 
 Pour obtenir un compte si vous êtes représentant d'un organisme de qualification ou d'une administration, votre organisation doit en faire la demande au gestionnaire technique de l’Observatoire National Ventilation en lui précisant les informations suivantes :
-- Un identifiant personnel
 - Votre adresse email
 - Votre nom et prénom
 - Votre numéro de téléphone
+- Nom de la société
+- Adresse, région et department
 
 Cette demande se fait par l'intermédiaire de la page de contact du site RT-RE Bâtiment: https://app.rt-batiment.fr/faq/public/question.php
 
