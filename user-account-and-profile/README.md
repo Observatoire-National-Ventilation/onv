@@ -12,10 +12,12 @@ Si vous êtes opérateur reconnu, votre compte sur l’Observatoire National Ven
 
 Pour obtenir un compte si vous êtes représentant d'un organisme de qualification ou d'une administration, votre organisation doit en faire la demande au gestionnaire technique de l’Observatoire National Ventilation en lui précisant les informations suivantes :
 - Votre adresse email
-- Votre nom et prénom
 - Votre numéro de téléphone
-- Nom de la société
-- Adresse, région et department
+- Votre société
+- Votre nom et prénom
+- Votre adresse
+- Votre région
+- Votre départment
 
 Cette demande se fait par l'intermédiaire de la page de contact du site RT-RE Bâtiment: https://app.rt-batiment.fr/faq/public/question.php
 
