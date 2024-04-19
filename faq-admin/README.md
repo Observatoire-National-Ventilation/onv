@@ -5,6 +5,7 @@
 * [2022-1 Que faire si un utilisateur a perdu le mail d'activation de son compte?](#faq2022-1)
 * [2022-2 Que faire si un éditeur de logiciel n'a plus accès a sa clé de sécurité](#faq2022-2)
 * [2022-3 Comment créer un nouveau compte utilisateur?](#faq2022-3)
+* [2024-4 Comment désactiver un opérateur existant s'il a transféré des entreprises ou si son certificat a été retiré?](#faq2024-4)
 
 ## 2022-1 Que faire si un utilisateur a perdu le mail d'activation de son compte? <a name="faq2022-1"></a>
 
@@ -59,6 +60,25 @@ Pour cela, suivez les étapes suivantes :
 * Si il s'agit d'un compte opérateur ou d'un membre d'un organisme de qualification, renseignez dans le champ "Qualification Body" le "Name" de l'organisme auprès duquel il est certificé, ou auquel il appartient.
 * Cliquez sur le bouton "Sauvegarder"
 * La création du compte est achevée.
+
+## 2024-4 Comment désactiver un opérateur existant s'il a transféré des entreprises ou si son certificat a été retiré? <a name="faq2024-4"></a>
+
+Dans l'excel fourni par le Cerema, certains opérateurs sont marqués comme "Transfert opérateurs" ou "Retiré". Pour ces opérateurs, leur accès à l'ONV doit être retiré. 
+
+Pour cela, suivez les étapes suivantes :
+* Rendez-vous dans la rubrique "Administration">"Gestion des utilisateurs"
+* Pour chaque login d'opérateur qui doit être désactivé, Vérifier si le statut est actif (vert) ou désactivé (rouge). Cliquez sur le statut et définissez le statut de ces opérateurs comme "désactivé".
+* Modifiez maintenant l'email associé au compte en cliquant sur le bouton modifier et ajoutez la valeur "désactivé-" devant leur email. 
+
+Ex: Si leur adresse e-mail était "jean.dupot@localhost.com", elle devient "deactivated-jean.dupot@localhost.com".
+
+<kbd>
+    <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/decativate-operator.png?raw=true" alt="Renvoyer l'email du mot de passe">
+</kbd>
+<br/><br/>
+
+**Note** : Lors de la création d'opérateurs nouveaux ou modifiés par importation, il convient de s'assurer que ces lignes sont supprimées de l'Excel avant d'importer l'Excel.
+
 
 <br/><br/>
 <a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a>  
