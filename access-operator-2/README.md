@@ -30,7 +30,7 @@ La publication de vos résultats de contrôles de ventilation est possible par l
 Un mode d’emploi est intégré au fichier pour vous donner des indications sur la façon de le remplir.
 
 Vous trouverez ici un exemple de fichier rempli avec les résultats du contrôle d'un système de ventilation simple flux d'une maison individuelle : 
-https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-files/RE2020_ONV_Outil_Saisie_Manuelle_v1_exemple_Individuel.xlsx
+<a href="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-files/RE2020_ONV_Outil_Saisie_Manuelle_v1_exemple_Individuel.xlsx" target="_blank">RE2020_ONV_Outil_Saisie_Manuelle_v1_exemple_Individuel.xlsx</a>
 
 
 Lorsque vous avez complété votre fichier avec les données de votre contrôle: 
