@@ -25,12 +25,12 @@ ou
 
 ### i. Publication via l’outil de saisie manuelle <a name="import"></a>
 
-La publication de vos résultats de contrôles de ventilation est possible par l’intermédiaire d’un outil de saisie manuelle (fichier Excel) disponible gratuitement par téléchargement dans l’onglet « Documentation ». Ce fichier Excel est dénommé <a href="https://raw.githubusercontent.com/Observatoire-National-Ventilation/onv/docs/wiki-files/RE2020_ONV_Outil_Saisie_Manuelle_v1.xlsx" target="_blank">« RE2020_ONV_Outil_Saisie_Manuelle_V1.xlsx »</a>
+La publication de vos résultats de contrôles de ventilation est possible par l’intermédiaire d’un outil de saisie manuelle (fichier Excel) disponible gratuitement par téléchargement dans l’onglet « Documentation ». Ce fichier Excel est dénommé <a href="https://raw.githubusercontent.com/Observatoire-National-Ventilation/onv/docs/wiki-files/RE2020_ONV_Outil_Saisie_Manuelle_v1.xlsx">« RE2020_ONV_Outil_Saisie_Manuelle_V1.xlsx »</a>
 
 Un mode d’emploi est intégré au fichier pour vous donner des indications sur la façon de le remplir.
 
 Vous trouverez ici un exemple de fichier rempli avec les résultats du contrôle d'un système de ventilation simple flux d'une maison individuelle : 
-<a href="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-files/RE2020_ONV_Outil_Saisie_Manuelle_v1_exemple_Individuel.xlsx" target="_blank">RE2020_ONV_Outil_Saisie_Manuelle_v1_exemple_Individuel.xlsx</a>
+<a href="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-files/RE2020_ONV_Outil_Saisie_Manuelle_v1_exemple_Individuel.xlsx">RE2020_ONV_Outil_Saisie_Manuelle_v1_exemple_Individuel.xlsx</a>
 
 
 Lorsque vous avez complété votre fichier avec les données de votre contrôle: 
