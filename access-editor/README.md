@@ -53,16 +53,16 @@ L'authentification est réalisée via HTTP Basic Auth. Dans les requêtes envoy�
 
 Vous devez spécifier le compte de l'opérateur qualifié pour lequel les requêtes sont effectuées. Ajoutez le Header ``Account`` à vos requêtes en spécifiant l'identifiant du compte.
 
-**Nota : Pour l’obtention de l’identifiant du compte, se rapprocher de l’opérateur reconnu.**
+**Nota : Pour l’obtention de l’identifiant du compte, se rapprocher de l’opérateur reconnu. L'utilisateur doit avoir activé son compte sur l'Observatoire.**
 
 Vous devez spécifier la "authorization-key", la clé utilisée pour identifier l'opérateur et le logiciel qu'il utilise en ajoutant le header ``authorization-key`` à vos requêtes. Cette clé est générée par l'ONV lors de l'autorisation et doit être sauvegardée sur le logiciel utilisé.
 
-**Nota : Si le logiciel ne dispose pas encore d’autorisation pour cet utilisateur, ce header doit quand même être présent avec la valeur "".**
+**Nota : Si le logiciel ne dispose pas encore d’autorisation pour cet utilisateur, ce header doit quand même être présent avec la valeur "". Si une nouvelle demande est réalisée pour un même utilisateur, son authorization-key sera différente**
 
 Vous pouvez utiliser la route ``/ext/ventilation-reports/test-access`` pour vérifier l'autorisation d'accès de votre logiciel à un compte utilisateur.
 
 ```Bash
-curl http://onv.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" -H "authorization-key:la_clé_authorization"
+curl --location "https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/ventilation-reports/test-access" -u "nom_logiciel:cle_secrete" --header "Account: user" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key;" --header "Accept: application/json" -v
 ```
 
 L'utilisateur (opérateur reconnu) doit avoir autorisé votre logiciel à effectuer des actions sur son compte.
@@ -73,15 +73,22 @@ Exemple :
 
 
 ```Bash
-curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" -H "authorization-key;" --head
+curl --location "https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/ventilation-reports/test-access" -u "nom_logiciel:cle_secrete" --header "Account: user-test" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key;" --header "Accept: application/json" -v
 HTTP/1.1 401 Unauthorized`
 Server: nginx/1.21.3`
 Date: Thu, 07 Jul 2022 10:28:04 GMT`
 Content-Length: 0`
 Connection: keep-alive`
 Expires: 0`
-GrantAccessUrl: http://onv-test-1.eu-west-3.elasticbeanstalk.com/software-authorization/1/grant-access`
+GrantAccessUrl: http://www.observatoire-national-ventilation.developpement-durable.gouv.fr/software-authorization/259/grant-access`
 authorization-key: dsWYDvnkvU8jHOD2yClv`
+
+{
+  "timestamp" : "2024-07-11T12:57:48.807+00:00",
+  "status" : 401,
+  "error" : "Unauthorized",
+  "path" : "/ext/ventilation-reports/test-access"
+}
 ```
 
 En ouvrant l'url ``GrantAccessUrl`` dans son navigateur, l'opérateur s'authentifie et peut ensuite valider ou refuser la demande d'accès du logiciel à son compte.
@@ -94,7 +101,7 @@ En ouvrant l'url ``GrantAccessUrl`` dans son navigateur, l'opérateur s'authenti
 Après validation de l'accès, votre application peut effectuer des requêtes pour le compte de cet opérateur :
 
 ```Bash
-curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/ventilation-reports/test-access -u nom_du_logiciel:cle_secrete -H "Account:id_de_l_operateur" -H "SoftwareVersion:la_version_du_logiciel" -H "Accept-Language:fr-FR,fr;q=0.9" -H "authorization-key:la_clé_authorization" --head
+curl --location "https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/ventilation-reports/test-access" -u "nom_logiciel:cle_secrete" --header "Account: user-test" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key: dsWYDvnkvU8jHOD2yClv" --header "Accept: application/json" -v
 HTTP/1.1 200 OK
 ```
 
@@ -117,7 +124,7 @@ Pour tester l'intégration de votre logiciel avec l'Observatoire National Ventil
 Vous pouvez tester l'intégration de votre logiciel en utilisant les routes de l'API avec ces trois utilisateurs. Les éventuelles données publiées pour ces utilisateurs n'auront pas d'impact sur les données utilisées pour les statistiques de l'Observatoire National Ventilation.
 
 ```Bash
-curl https://onv-test-1.eu-west-3.elasticbeanstalk.com/ext/test-access -u MyVentilationSoftware:cle_secrete -H "Account:MyVentilationSoftware_test_accepted" -H "authorization-key:MO9jxDxlqYWbVERjprkg" --head
+curl https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/test-access -u MyVentilationSoftware:cle_secrete -H "Account:MyVentilationSoftware_test_accepted" -H "authorization-key:MO9jxDxlqYWbVERjprkg" --header "Account: user-test" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key: MO9jxDxlqYWbVERjprkg" --header "Accept: application/json" -v
 HTTP/1.1 200 OK
 ```
 
