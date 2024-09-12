@@ -73,7 +73,7 @@ Exemple :
 
 
 ```Bash
-curl --location "https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/ventilation-reports/test-access" -u "nom_logiciel:cle_secrete" --header "Account: user-test" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key;" --header "Accept: application/json" -v
+curl --location "https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/ventilation-reports/test-access" -u "nom_logiciel:cle_secrete" --header "Account: user" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key;" --header "Accept: application/json" -v
 HTTP/1.1 401 Unauthorized`
 Server: nginx/1.21.3`
 Date: Thu, 07 Jul 2022 10:28:04 GMT`
@@ -101,7 +101,7 @@ En ouvrant l'url ``GrantAccessUrl`` dans son navigateur, l'opérateur s'authenti
 Après validation de l'accès, votre application peut effectuer des requêtes pour le compte de cet opérateur :
 
 ```Bash
-curl --location "https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/ventilation-reports/test-access" -u "nom_logiciel:cle_secrete" --header "Account: user-test" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key: dsWYDvnkvU8jHOD2yClv" --header "Accept: application/json" -v
+curl --location "https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/ventilation-reports/test-access" -u "nom_logiciel:cle_secrete" --header "Account: user" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key: dsWYDvnkvU8jHOD2yClv" --header "Accept: application/json" -v
 HTTP/1.1 200 OK
 ```
 
@@ -124,7 +124,7 @@ Pour tester l'intégration de votre logiciel avec l'Observatoire National Ventil
 Vous pouvez tester l'intégration de votre logiciel en utilisant les routes de l'API avec ces trois utilisateurs. Les éventuelles données publiées pour ces utilisateurs n'auront pas d'impact sur les données utilisées pour les statistiques de l'Observatoire National Ventilation.
 
 ```Bash
-curl https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/test-access -u MyVentilationSoftware:cle_secrete -H "Account:MyVentilationSoftware_test_accepted" -H "authorization-key:MO9jxDxlqYWbVERjprkg" --header "Account: user-test" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "authorization-key: MO9jxDxlqYWbVERjprkg" --header "Accept: application/json" -v
+curl https://www.observatoire-national-ventilation.developpement-durable.gouv.fr/ext/test-access -u MyVentilationSoftware:cle_secrete -H "Account:MyVentilationSoftware_test_accepted" -H "authorization-key:MO9jxDxlqYWbVERjprkg" --header "Accept-Language: fr" --header "SoftwareVersion: 1.0" --header "Accept: application/json" -v
 HTTP/1.1 200 OK
 ```
 
