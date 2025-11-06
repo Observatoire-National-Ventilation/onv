@@ -6,6 +6,7 @@
     2. [Comptes opérateurs](#comptes)
     3. [Environnement de test](#testEnv)
     4. [API](#api)
+    5. [Description des Erreurs](#errors)
 
 ----
 
@@ -133,3 +134,23 @@ La documentation détaillée des actions disponibles via l'API est disponible [s
 
 <br/><br/>
 <a href="#top"> <img src="https://github.com/Observatoire-National-Ventilation/onv/blob/docs/wiki-images/arrow_top.png?raw=true"  height="10" width="20" alt="Haut de page">HAUT DE PAGE</a> 
+
+### iv. Description des Erreurs <a name="errors"></a> 
+## Codes d'erreur de l'API SoftwareAccessResource
+
+| Code d'erreur                                     | Description                                                                                                                                                                                                                               |
+|---------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `error.usernotvalid`                              | L'identifiant de compte utilisateur fourni n'existe pas.                                                                                                                                                                                  |
+| `error.nullauthorizationkey`                      | Le header 'authorization-key' requis pour cette demande n'est pas fourni.                                                                                                                                                                 |
+| `error.ventilationReportExtended.invalidrequest`  | Le corps de la requête est vide ou il manque la structure de données de base attendue dans la requête. Veuillez vérifier le schéma de l'objet VentilationControlData.                                                                     |
+| `error.validation`                                | Le résultat de contrôle ne respecte pas les règles de validation. Les erreurs de validation pour les champs en infraction sont retournées.                                                                                                |
+| `error.ventilationReportExtended.importForbidden` | Le contrôle est déjà publié sur l'Observatoire National Ventilation (soit par le propriétaire du rapport, soit par un autre utilisateur).                                                                                                 |
+| `error.ventilationReportExtended.updateForbidden` | Le contrôle publié n'a pas été reconnu sur l'Observatoire National Ventilation. Il s'agit soit d'un nouveau contrôle, soit les identifiants indiqués sont erronés dans referenceDuRapport, IdentifiantDuBatiment ou IdentifiantDuSysteme. |
+| `error.ventilationReportExtended.importFailed`    | Une exception inattendue s'est produite. Veuillez contacter le support pour résoudre le problème en indiquant la référence du rapport utilisé pour la requête.                                                                            |
+| `error.invalidId`                                 | L'identifiant fourni dans l'URL de la requête n'existe pas dans l'Observatoire National Ventilation.                                                                                                                                      |
+
+### Notes complémentaires
+
+- **Code HTTP 401 (Unauthorized)** : Peut indiquer soit un échec de BasicAuth (nom de logiciel ou clé secrète invalides), soit que l'utilisateur n'a pas donné accès au logiciel à son compte.
+- **Code HTTP 400 (Bad Request)** : Retourné pour les erreurs de validation ou les problèmes liés aux données fournies.
+- **Code HTTP 403 (Forbidden)** : Retourné lorsque l'ID fourni dans l'URL n'existe pas.
